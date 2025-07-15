@@ -35,7 +35,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div className="font-bold text-lg bg-white/20 px-2 py-1 rounded-full">CT</div>
+        {/* <div className="font-bold text-lg bg-white/20 px-2 py-1 rounded-full">Chage Theme</div> */}
 
         <div className="md:hidden">
           <button onClick={() => setIsOpen(!isOpen)}>
