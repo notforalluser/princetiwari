@@ -45,7 +45,7 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <ul className="md:hidden px-6 pb-4 space-y-4 text-base font-medium bg-white shadow-sm">
+        <ul className="md:hidden px-6 pb-4 space-y-4 text-base font-medium bg-white/10 shadow-sm">
           {links.map((link) => (
             <li key={link}>
               <Link

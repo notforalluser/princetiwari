@@ -35,7 +35,7 @@ function App() {
           }}
         /> */}
 
-      <div className="pt-14 bg-black px-20">
+      <div className="pt-14 bg-black md:px-20">
         <Home />
         <AboutUs />
         <Skills />

@@ -9,7 +9,7 @@ import SocialLinks from './SocialLinks';
 
 const AboutUs = () => {
   return (
-    <div className="p-10 flex flex-col items-center justify-center bg-white/5 text-white/90" id="aboutus">
+    <div className="p-2 md:p-10 flex flex-col items-center justify-center bg-white/5 text-white/90" id="aboutus">
       <div className="flex flex-col md:flex-row rounded-xl overflow-hidden max-w-7xl w-full py-6 bg-white/10  border border-gray-700">
         <div className="md:w-1/3 w-full flex items-center justify-center relative">
           <div className="absolute w-64 h-64 rounded-full animate-spin-slow">
@@ -56,7 +56,7 @@ const AboutUs = () => {
             <div className="flex items-center gap-2">
               <Mail size={18} className="text-gray-200" />
               <span className="font-semibold">Email:</span>
-              <span className="ml-1">princetiwari.profes@example.com</span>
+              <span className="ml-1">princetiwari.profes@gmail.com</span>
             </div>
             <div className="flex items-center gap-2">
               <MapPin size={18} className="text-gray-200" />

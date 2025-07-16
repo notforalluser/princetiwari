@@ -52,7 +52,7 @@ const Contact = () => {
 
   return (
     <div
-      className="p-10 flex flex-col items-center justify-center bg-white/5 z-10" id="contactus">
+      className="p-2 md:p-10 flex flex-col items-center justify-center bg-white/5 z-10" id="contactus">
       <div className="py-6 px-2 bg-white/10 text-white rounded-xl border border-gray-700 w-full max-w-7xl">
         <h2 className="text-3xl font-bold text-center mb-10">Contact Me</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 px-4">

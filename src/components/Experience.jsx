@@ -19,10 +19,10 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <div className="bg-white/5 p-10" id="experience">
+    <div className="bg-white/5 p-2 md:p-10" id="experience">
       <div className="bg-white/10 p-5 text-white rounded-xl py-6 border border-gray-700">
         <h2 className="text-3xl font-bold text-center mb-12">Experience</h2>
-        <div className="max-w-6xl mx-auto flex flex-row flex-auto items-center justify-center gap-10">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row flex-auto items-center justify-center gap-10">
           {experiences.map((exp, index) => (
             <div
               key={index}

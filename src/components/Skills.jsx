@@ -33,7 +33,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="p-10 flex flex-col items-center justify-center bg-white/5 z-10" id="skills">
+    <div className="p-2 md:p-10 flex flex-col items-center justify-center bg-white/5 z-10" id="skills">
       <div className="bg-white/10 py-5 rounded-xl text-white  border border-gray-700">
         <h2 className="text-3xl font-bold text-center mb-10">Skills</h2>
         <div className="w-full flex flex-wrap items-center justify-center gap-10">

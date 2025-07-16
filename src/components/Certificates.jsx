@@ -44,8 +44,8 @@ const certificates = [
 
 const Certificates = () => {
   return (
-    <div className="p-10 flex flex-col items-center justify-start bg-white/5 z-10" id="certificates">
-      <div className="py-6 px-2 bg-white/10 text-white rounded-xl border border-gray-700">
+    <div className="p-2 md:p-10 flex flex-col items-center justify-center bg-white/5 z-10" id="certificates">
+      <div className="bg-white/10 rounded-xl py-6 text-white  border border-gray-700 px-8">
         <h2 className="text-3xl font-bold text-center mb-10">Certificates</h2>
         <div className="w-full max-w-6xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 overflow-y-auto scrollbar-thin scrollbar-thumb-blue-500 scrollbar-track-gray-200">
           {certificates.map((cert, index) => (

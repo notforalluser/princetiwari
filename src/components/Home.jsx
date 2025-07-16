@@ -22,9 +22,9 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center justify-center bg-white/5 z-10" id='home'>
-      <div className="relative w-full h-[91vh] md:h-[91vh] flex items-center justify-center overflow-hidden">
+      <div className="relative w-full h-[120vh] md:h-[91vh] flex items-center justify-center overflow-hidden">
         {/* Animated Squares Grid */}
-        <div className="absolute inset-0 grid grid-cols-3 md:grid-cols-5 grid-rows-3 opacity-10 md:border-b-2 md:border-slate-600">
+        <div className="absolute inset-0 grid grid-cols-3 md:grid-cols-5 md:grid-rows-3 opacity-10 md:border-b-2 md:border-slate-600">
           {[...Array(15)].map((_, i) => (
             <motion.div
               key={i}
