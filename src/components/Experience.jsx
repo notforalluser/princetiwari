@@ -4,16 +4,16 @@ const experiences = [
   {
     title: "Full Stack Web Developer Intern",
     company: "Unified Mentor",
-    duration: "Jan 2024 - Mar 2024",
+    duration: "Apr 2025 - Jun 2025",
     description:
       "Worked on MERN stack applications. Built REST APIs, optimized UI using Tailwind CSS, and managed user authentication using JWT.",
   },
   {
     title: "Industrial Training",
     company: "Cloud Counselage Pvt. Ltd.",
-    duration: "Aug 2023 - Nov 2023",
+    duration: "Jun 2025 - Jul 2024",
     description:
-      "Developed scalable APIs using Node.js & Express. Integrated MongoDB and implemented role-based access control for secure operations.",
+      "Contributed to real-world industry projects, gaining hands-on experience in modern web development.",
   },
 ];
 
